@@ -47,6 +47,7 @@
 		3FFD10E81AFDEC7F0013A652 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
 		3FFD10F01AFDECE10013A652 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		3FFD10F11AFDECE10013A652 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		3FFD10F31AFDF00E0013A652 /* ImplicitSignednessKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImplicitSignednessKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 			children = (
 				3FFD10BF1AFDEB700013A652 /* NSArray */,
 				3FFD10C21AFDEB700013A652 /* NSIndexPath */,
+				3FFD10F31AFDF00E0013A652 /* ImplicitSignednessKit.h */,
 			);
 			path = ImplicitSignednessKit;
 			sourceTree = "<group>";
