@@ -6,11 +6,46 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		3FFD10C01AFDEB700013A652 /* NSArray+Signedness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Signedness.h"; sourceTree = "<group>"; };
+		3FFD10C11AFDEB700013A652 /* NSArray+Signedness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Signedness.m"; sourceTree = "<group>"; };
+		3FFD10C31AFDEB700013A652 /* NSIndexPath+Signedness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+Signedness.h"; sourceTree = "<group>"; };
+		3FFD10C41AFDEB700013A652 /* NSIndexPath+Signedness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+Signedness.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		3FFD10B01AFDE6820013A652 = {
 			isa = PBXGroup;
 			children = (
+				3FFD10B71AFDE74D0013A652 /* ImplicitSignednessKit */,
 			);
+			sourceTree = "<group>";
+		};
+		3FFD10B71AFDE74D0013A652 /* ImplicitSignednessKit */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD10BF1AFDEB700013A652 /* NSArray */,
+				3FFD10C21AFDEB700013A652 /* NSIndexPath */,
+			);
+			path = ImplicitSignednessKit;
+			sourceTree = "<group>";
+		};
+		3FFD10BF1AFDEB700013A652 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD10C01AFDEB700013A652 /* NSArray+Signedness.h */,
+				3FFD10C11AFDEB700013A652 /* NSArray+Signedness.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		3FFD10C21AFDEB700013A652 /* NSIndexPath */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD10C31AFDEB700013A652 /* NSIndexPath+Signedness.h */,
+				3FFD10C41AFDEB700013A652 /* NSIndexPath+Signedness.m */,
+			);
+			path = NSIndexPath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
