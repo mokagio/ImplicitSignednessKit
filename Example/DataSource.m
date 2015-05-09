@@ -7,6 +7,7 @@
 //
 
 #import "DataSource.h"
+#import "ImplicitSignednessKit.h"
 
 @interface DataSource ()
 
@@ -44,13 +45,14 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     NSUInteger sectionAsIndex = (NSUInteger)section;
-    return [self.sections[sectionAsIndex] count];
+    return [self.sections[sectionAsIndex] integerCount];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    NSDictionary *data = self.sections[indexPath.section][indexPath.row];
+    NSDictionary *data = self.sections[indexPath.unsignedSection][indexPath.unsignedRow];
     cell.textLabel.text = data[@"text"];
     return cell;
 }
+
 @end
