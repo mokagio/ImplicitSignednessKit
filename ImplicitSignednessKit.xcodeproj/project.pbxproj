@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA159941AFF16FE00D87869 /* NSArray+Signedness.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD10C11AFDEB700013A652 /* NSArray+Signedness.m */; };
+		3FA159951AFF16FE00D87869 /* NSIndexPath+Signedness.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD10C41AFDEB700013A652 /* NSIndexPath+Signedness.m */; };
 		3FFD10CF1AFDEC7F0013A652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD10CE1AFDEC7F0013A652 /* main.m */; };
 		3FFD10D21AFDEC7F0013A652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD10D11AFDEC7F0013A652 /* AppDelegate.m */; };
 		3FFD10D51AFDEC7F0013A652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFD10D41AFDEC7F0013A652 /* ViewController.m */; };
@@ -258,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFD10D51AFDEC7F0013A652 /* ViewController.m in Sources */,
+				3FA159951AFF16FE00D87869 /* NSIndexPath+Signedness.m in Sources */,
 				3FFD10D21AFDEC7F0013A652 /* AppDelegate.m in Sources */,
 				3FFD10F21AFDECE10013A652 /* DataSource.m in Sources */,
+				3FA159941AFF16FE00D87869 /* NSArray+Signedness.m in Sources */,
 				3FFD10CF1AFDEC7F0013A652 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +527,7 @@
 				3FFD10EC1AFDEC7F0013A652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FFD10ED1AFDEC7F0013A652 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +536,7 @@
 				3FFD10EF1AFDEC7F0013A652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
