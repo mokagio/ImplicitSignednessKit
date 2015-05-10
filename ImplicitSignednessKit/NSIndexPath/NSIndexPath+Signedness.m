@@ -1,4 +1,4 @@
-#import "NSIndexPath+Utils.h"
+#import "NSIndexPath+Signedness.h"
 
 @implementation NSIndexPath (Signedness)
 
