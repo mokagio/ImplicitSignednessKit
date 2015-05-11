@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ImplicitSignednessKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A set of categories to make working with the \"Implicit Signedness Conversion\" warning easire"
 
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ ImplicitSignednessKit, on top of having the most sad name ever seen in the world
   s.author    = "Giovanni Lodi"
   s.social_media_url   = "http://twitter.com/mokagio"
 
-  s.source       = { :git => "https://github.com/mokagio/ImplicitSignednessKit.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/mokagio/ImplicitSignednessKit.git", :tag => s.version }
 
   s.source_files  = "ImplicitSignednessKit/**/*.{h,m}"
 
