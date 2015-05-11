@@ -18,7 +18,6 @@ ImplicitSignednessKit, on top of having the most sad name ever seen in the world
   s.source       = { :git => "https://github.com/mokagio/ImplicitSignednessKit.git", :tag => "1.0.0" }
 
   s.source_files  = "ImplicitSignednessKit/**/*.{h,m}"
-  s.public_header_files = "ImplicitSignednessKit/ImplicitSignednessKit.h"
 
   s.platform      = :ios
   s.framework     = "UIKit"
